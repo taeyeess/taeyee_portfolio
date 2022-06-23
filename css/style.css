@@ -80,12 +80,33 @@
     letter-spacing: 5px;}
 
 #main .txt_box .logo{    
-    font-size: 100px;    
+    font-size: 100px;       
     letter-spacing: 10px;
     color:#000000;
     text-shadow: -1px 0px rgb(255, 255, 255), 0px 1px rgb(255, 255, 255), 1px 0px rgb(255, 255, 255), 0px -1px rgb(255, 255, 255);    
     /* text-shadow: 3px 3px #fff;*/
 } 
+
+#main .txt_box .logo::after{    
+    content: "|";
+    animation: blink 1s step-end infinite;
+    color: #fff;      
+}
+
+@keyframes blink {
+    0% {
+      opacity:1;
+    }
+    49% {
+      opacity:1;
+    }
+    50% {
+      opacity:0;
+    }
+    100% {
+      opacity:0;
+    }
+}
 
 #main .txt_box > p{
     font-size:30px; 
@@ -95,7 +116,7 @@
     
 }
 #q_mn{
-    position: absolute; 
+    position: fixed; 
     right:20px; top: 300px; z-index: 9999;
     width:200px; 
     height:200px;
@@ -237,7 +258,7 @@
 }
 #contact::before{
     content:"";
-    background:url(../hubble_friday_05162016.jpg) no-repeat center;
+    background:url(../images/hubble_friday_05162016.jpg) no-repeat center;
     background-size: cover;               
     position:absolute;
     opacity: 0.5;
