@@ -12,7 +12,7 @@ function playAnim() {
       if (index > textToBeTyped.length) {
         // no more text to add
         isAdding = false
-        //break: wait 2s before playing again
+        // break: wait 2s before playing again
         // setTimeout( function () {
         //   playAnim()
         // }, 2000)
@@ -21,16 +21,16 @@ function playAnim() {
         // increment index by 1
         index++
       }
-    } else {
-      // removing text
-      if (index === 0) {
-        // no more text to remove
-        isAdding = true
-      } else {
-        // decrement index by 1
-        index--
-      }
-    }
+     }// else {
+    //   // removing text
+    //   if (index === 0) {
+    //     // no more text to remove
+    //     isAdding = true
+    //   } else {
+    //     // decrement index by 1
+    //     index--
+    //   }
+    // }
     // call itself
     playAnim()
   }, 120)
