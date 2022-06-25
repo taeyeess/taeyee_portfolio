@@ -1,11 +1,19 @@
 
 *{
     margin:0;
-    padding:0;}
+    padding:0;
+    box-sizing: content-box;}
+html{    
+    position: relative;
+    /* height: 100%;
+    width: 100%; */
+}
 body{
     font-family: 'Montserrat', sans-serif;
     color:rgb(255, 255, 255);
-    font-size: 12px;}
+    font-size: 12px;    
+    position: relative;
+}
 a{
     text-decoration:none ;
     color:#333;}
