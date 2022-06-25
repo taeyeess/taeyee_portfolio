@@ -15,19 +15,25 @@
 <body>
     <div id="wrap">  
         <!-- 메인 -->
-        <div id="main">
-            <div class="sky">                
-            </div>
+        <section id="main" class="section">            
             <div class="txt_box">            
                 <h2>
                     PORTFOLIO
                 </h2>
                 <h1 class="logo"></h1>                 
                 <p>frontend-developer</p>   
-            </div>            
+            </div>         
+                        
+        </section>
+        <div class="constelacao"></div>
+        <div class="lua">
+            <div class="textura"></div>
         </div>
+        <div class="chuvaMeteoro"></div>
+        
+        
         <!-- 소개 -->
-        <div id="profile">
+        <section id="profile" class="section">
             <h3 class="tlt">ABOUT</h3>
             <div class="introduce">
                 <div class="IDphoto"></div>
@@ -50,34 +56,33 @@
                         React
                     </li>
                 </ul>
-            </div>            
-
-        </div>
+            </div>
+        </section>
         <!-- 프로젝트 -->
-        <div id="project">  
+        <section id="project" class="section">  
             <h3 class="tlt">PROJECT</h3>
             <article class="p1">
                 <div class="photo"><img src=""></div>
                 <div class="txt"></div>
             </article>  
-        </div>
+        </section>
         <!-- 프로젝트2 -->
-        <div id="project">  
+        <section id="project" class="section">  
             <h3 class="tlt">PROJECT</h3>
             <article class="p1">
                 <div class="photo"><img src=""></div>
                 <div class="txt"></div>
             </article>  
-        </div>
+        </section>
         <!-- 프로젝트3 -->
-        <div id="project">  
+        <section id="project" class="section">  
             <h3 class="tlt">PROJECT</h3>
             <article class="p1">
                 <div class="photo"><img src=""></div>
                 <div class="txt"></div>
             </article>  
-        </div>
-        <div id="contact">
+        </section>
+        <section id="contact" class="section">
             <h3 class="tlt">CONTACT ME</h3>
             <p>I'd love to hear your thoughts!</p>
             <div class="box">
@@ -100,16 +105,15 @@
                         Send Message
                     </button>
                 </form>
-            </div>
-            
-        </div>
+            </div>           
+        </section>
         <!-- 마무리 -->
-        <div id="end">
+        <!-- <section id="end">
             <div class="in_end"></div>
-        </div>
+        </section> -->
     </div>
      <!-- 퀵메뉴 -->
-     <div id="q_mn">
+     <aside id="q_mn">
         <ul class="nav">
             <li><a href="#">Home</a></li>
             <li><a href="#">Profile</a></li>
@@ -117,7 +121,10 @@
             <li><a href="#">project1</a></li>
             <li><a href="#">finish</a></li>
         </ul>
-    </div>
-    <script src="./js/main.js"></script>    
+     </aside>       
+    <script src="./js/scroll.js"></script>
+    <script src="./js/background.js"></script> 
+    <script src="./js/main.js"></script>   
+        
 </body>
 </html>
