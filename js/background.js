@@ -12,7 +12,7 @@ function init(){
 
   var estrela = "";
   var qtdeEstrelas = 250;
-  var noite = document.querySelector(".constelacao");
+  var noite = document.querySelector(".stars");
   var widthWindow = window.innerWidth;
   var heightWindow = window.innerHeight;
 
@@ -44,4 +44,4 @@ function init(){
 
 }
 
-window.onload = init;
+init();
