@@ -36,4 +36,4 @@ function playAnim() {
   }, 120)
 }
 // 타이핑 스크립트 호출
-playAnim()
+setTimeout(playAnim, 1000)
