@@ -250,12 +250,14 @@
     font-size:30px; 
     color: #D6CBC2;
     letter-spacing: 18px;
-    padding-top: 20px;
-    
+    padding-top: 20px;    
 }
+
 #q_mn{
     position: fixed; 
-    right:20px; top: 300px; z-index: 9999;
+    left: 50px; 
+    top: 300px; 
+    z-index: 9999;
     width:200px; 
     height:200px;
     border-radius: 50%;
@@ -263,19 +265,23 @@
     background:url(../images/png-transparent-earth-amazon-com-room-moon-earth-child-globe-atmosphere.png) no-repeat center;    
     box-shadow: 0 0 40px rgba(186, 174, 255, 0.3),0 0 35px rgba(186, 174, 255, 0.3),0 0 30px rgba(186, 174, 255, 0.3),0 0 25px rgba(186, 174, 255, 0.3),0 0 20px rgba(186, 174, 255, 0.3),0 0 15px rgba(186, 174, 255, 0.3),0 0 10px rgba(186, 174, 255, 0.3),0 0 5px rgba(186, 174, 255, 0.3);
 }
+
 #q_mn ul.nav{ 
     margin:0 auto;
      margin-top:30px; 
      list-style:none; 
-     width:50px;}	
+     width:50px;
+}	
+
 #q_mn ul.nav li{
-     margin-bottom:10px}   
+     margin-bottom: 10px;
+}   
 #q_mn ul.nav li a{ 
-    color: rgb(206, 206, 206);}
+    color: rgb(206, 206, 206);
+}
 #q_mn ul.nav li.on a{ 
-    color: rgb(15, 15, 15);}
-
-
+    color: rgb(15, 15, 15);
+}
 
 /* 소개 */
 #profile{
@@ -356,33 +362,41 @@
     
 } */
 #project .tlt{
-    color: #fff;
-    font-size: 50px;
-    letter-spacing: 40px;    
-    position: absolute;
-    top: 170px;
-    right:100px;    
-    writing-mode: vertical-rl;
-    text-orientation: mixed;
+  color: #fff;
+  font-size: 50px;
+  letter-spacing: 40px;    
+  position: absolute;
+  top: 170px;
+  right:100px;    
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
 }
 
 #project .p1{
-    width: 1200px;
-    height: 800px;
-    background-color: #D6CBC2;
-    margin: 0 auto;
-    padding-top: 150px;
-    box-sizing: border-box;
-    display: flex;
-    align-items: center;    
-    
+  width: 1200px;
+  height: 800px;
+  background-color: #D6CBC2;  
+  margin: 0 auto;  
+  /* padding-top: 150px; */
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;    
 }
 
 #project .p1 .photo{
-    width: 600px;
-    height: 400px;
-    background-color: crimson;
+  width: 600px;
+  height: 800px;
+  background-color: crimson;
+  display: flex;
+  align-items: center; 
+  justify-content: space-around;
+
 }
+
+#project .p1 .photo > img{
+  width: 230px;  
+}
+
 #project .p1 .txt{
     width: 600px;
     height: 400px;

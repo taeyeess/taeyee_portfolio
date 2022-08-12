@@ -1,7 +1,5 @@
 function init(){
-
   //estrelas
-
   var style = ["style1", "style2", "style3", "style4"];
   var tam = ["tam1", "tam1", "tam1", "tam2", "tam3"];
   var opacity = ["opacity1", "opacity1", "opacity1", "opacity2", "opacity2", "opacity3"];
@@ -41,7 +39,6 @@ function init(){
       document.getElementsByClassName('chuvaMeteoro')[0].innerHTML = "";
     }, 1000);
   }
-
 }
 
 init();
