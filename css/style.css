@@ -1,20 +1,18 @@
 #wrap{
-    width:100%;
-    background-color: #000;
+  width:100%;
+  background-color: #000;
 } 
 
 #main{   
-        width: 100%;
-        height: 100vh;
-        background: url(../images/601259main_jetpack_full.jpg) no-repeat center -100px;
-        background-size: cover;        
-        /* position: relative;
-        background: linear-gradient(to right, #111, #0e0f19);  
-        overflow: hidden;       */
+  width: 100%;
+  height: 100vh;
+  background: url(../images/601259main_jetpack_full.jpg) no-repeat center -100px;
+  background-size: cover;        
+  /* position: relative;
+  background: linear-gradient(to right, #111, #0e0f19);  
+  overflow: hidden;       */
 }
 
-
-  
   .stars {
     position: absolute;
     left: 0;
@@ -206,29 +204,29 @@
     }
   }
 #main .txt_box{
-    width: 100%;
-    height: 300px;    
-    padding-top: 300px;
-    text-align: center;
-    line-height: 100px;
-    
+  width: 100%;
+  height: 300px;    
+  padding-top: 300px;
+  text-align: center;
+  line-height: 100px;    
 }
+
 #main .txt_box > h2{   
-    letter-spacing: 5px;}
+  letter-spacing: 5px;
+}
 
 #main .txt_box .logo{    
-    font-size: 100px;
-        
-    letter-spacing: 10px;
-    color:#000000;
-    text-shadow: -1px 0px rgb(255, 255, 255), 0px 1px rgb(255, 255, 255), 1px 0px rgb(255, 255, 255), 0px -1px rgb(255, 255, 255);    
-    /* text-shadow: 3px 3px #fff;*/
+  font-size: 100px;        
+  letter-spacing: 10px;
+  color:#000000;
+  text-shadow: -1px 0px rgb(255, 255, 255), 0px 1px rgb(255, 255, 255), 1px 0px rgb(255, 255, 255), 0px -1px rgb(255, 255, 255);    
+  /* text-shadow: 3px 3px #fff;*/
 } 
 
 #main .txt_box .logo::after{    
-    content: "|";
-    animation: blink 1s step-end infinite;
-    color: #fff;      
+  content: "|";
+  animation: blink 1s step-end infinite;
+  color: #fff;      
 }
 
 @keyframes blink {
@@ -247,76 +245,80 @@
 }
 
 #main .txt_box > p{
-    font-size:30px; 
-    color: #D6CBC2;
-    letter-spacing: 18px;
-    padding-top: 20px;    
+  font-size:30px; 
+  color: #D6CBC2;
+  letter-spacing: 18px;
+  padding-top: 20px;    
 }
 
 #q_mn{
-    position: fixed; 
-    left: 50px; 
-    top: 300px; 
-    z-index: 9999;
-    width:200px; 
-    height:200px;
-    border-radius: 50%;
-    border:1px solid #ccc;
-    background:url(../images/png-transparent-earth-amazon-com-room-moon-earth-child-globe-atmosphere.png) no-repeat center;    
-    box-shadow: 0 0 40px rgba(186, 174, 255, 0.3),0 0 35px rgba(186, 174, 255, 0.3),0 0 30px rgba(186, 174, 255, 0.3),0 0 25px rgba(186, 174, 255, 0.3),0 0 20px rgba(186, 174, 255, 0.3),0 0 15px rgba(186, 174, 255, 0.3),0 0 10px rgba(186, 174, 255, 0.3),0 0 5px rgba(186, 174, 255, 0.3);
+  position: fixed; 
+  left: 50px; 
+  top: 300px; 
+  z-index: 9999;
+  width:200px; 
+  height:200px;
+  border-radius: 50%;
+  border:1px solid #ccc;
+  background:url(../images/png-transparent-earth-amazon-com-room-moon-earth-child-globe-atmosphere.png) no-repeat center;    
+  box-shadow: 0 0 40px rgba(186, 174, 255, 0.3),0 0 35px rgba(186, 174, 255, 0.3),0 0 30px rgba(186, 174, 255, 0.3),0 0 25px rgba(186, 174, 255, 0.3),0 0 20px rgba(186, 174, 255, 0.3),0 0 15px rgba(186, 174, 255, 0.3),0 0 10px rgba(186, 174, 255, 0.3),0 0 5px rgba(186, 174, 255, 0.3);
 }
 
 #q_mn ul.nav{ 
-    margin:0 auto;
-     margin-top:30px; 
-     list-style:none; 
-     width:50px;
+  margin:0 auto;
+  margin-top:30px; 
+  list-style:none; 
+  width:50px;
 }	
 
 #q_mn ul.nav li{
-     margin-bottom: 10px;
+  margin-bottom: 10px;
 }   
 #q_mn ul.nav li a{ 
-    color: rgb(206, 206, 206);
+  color: rgb(206, 206, 206);
 }
 #q_mn ul.nav li.on a{ 
-    color: rgb(15, 15, 15);
+  color: rgb(15, 15, 15);
 }
 
 /* 소개 */
 #profile{
-    width: 100%; height: 100vh;
-    background:url(../images/pia18289_full.jpg)no-repeat center;
-    background-size:cover;
-    position: relative;
+  width: 100%; 
+  height: 100vh;
+  background:url(../images/pia18289_full.jpg)no-repeat center;
+  background-size: cover;
+  position: relative;
 }
 
 #profile .tlt{
-    color: #fff;
-    font-size: 50px;    
-    letter-spacing: 30px;
-    position: absolute;
-    top:100px;
-    left: 100px;   
-    writing-mode: vertical-rl;
-    text-orientation: mixed;
+  color: #fff;
+  font-size: 50px;    
+  letter-spacing: 30px;
+  position: absolute;
+  top: 100px;
+  left: 100px;   
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
 }
+
 #profile .introduce{
-    padding-top: 200px;    
+  padding-top: 200px;    
 } 
+
 #profile .IDphoto{
-    width: 300px;
-    height: 300px;
-    background: url(../images/KakaoTalk_20220623_155747766.jpg) no-repeat center;
-    background-size: cover;
-    border-radius: 50%;
-    border:solid 10px #fff;
-    margin: 0 auto;    
+  width: 300px;
+  height: 300px;
+  background: url(../images/KakaoTalk_20220623_155747766.jpg) no-repeat center;
+  background-size: cover;
+  border-radius: 50%;
+  border:solid 10px #fff;
+  margin: 0 auto;    
 }
+
 #profile .txt{
-    padding-top: 40px;
-    text-align: center;
-    font-size: 20px;
+  padding-top: 40px;
+  text-align: center;
+  font-size: 20px;
 }
 
 #profile .skills{    
@@ -340,27 +342,24 @@
 }
 
 /* 프로젝트 */
-#project{
-    width: 100%; height: 100vh;
-    /* position: relative; */
-    background-color: rgb(0, 0, 0);
-    position: relative;
-    
-         
+#container{
+  position: relative;
+  width: 100%; 
+  height: 100vh;    
+  background-color: rgb(0, 0, 0);
+  overflow: hidden;
 }
-/* #project::before{    
-    
-    content:"";
-    background:url(../images/potw2034a.jpg) no-repeat center;
-    background-size: cover;                
-    position:absolute;
-    opacity: 0.5;
-    top:0px;
-    left:0px;
-    right:0px;
-    bottom:0px;
-    
-} */
+
+#project{
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 800px;
+  transition: top 0.4s ease-in-out;  
+  overflow: hidden;   
+}
+
 #project .tlt{
   color: #fff;
   font-size: 50px;
@@ -377,37 +376,113 @@
   height: 800px;
   background-color: #D6CBC2;  
   margin: 0 auto;  
-  /* padding-top: 150px; */
+  margin-top: 70px;
   box-sizing: border-box;
   display: flex;
   align-items: center;    
 }
 
+#project .p1 .txt{
+  width: 600px;
+  height: 800px;  
+  background-color: cornflowerblue;
+  padding-left: 20px;
+}
+
+#project .p1 .txt h3{
+  font-size: 22px;
+  padding-top: 320px;
+  
+}
+
+#project .p1 .txt p{
+  padding-top: 15px;
+}
+
+#project .p1 .txt ul{
+  width: 300px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
 #project .p1 .photo{
   width: 600px;
-  height: 800px;
-  background-color: crimson;
-  display: flex;
-  align-items: center; 
-  justify-content: space-around;
+  height: 800px;  
+  background-color: crimson; 
+  overflow-y: scroll;
+}
 
+/* 스크롤바 너비설정 */
+#project .p1 .photo::-webkit-scrollbar{
+  width: 10px;
+  height: 15px;
+}
+
+/* 스크롤바 막대 높이 설정 */
+#project .p1 .photo::-webkit-scrollbar-thumb{
+  height: 17px;
+  background-color: #7b7b7b;
+  border-radius: 10px;
+}
+
+/* 스크롤바 배경 설정 */
+#project .p1 .photo::-webkit-scrollbar-track{
+  background-color: #fff;
 }
 
 #project .p1 .photo > img{
-  width: 230px;  
+  width: 100%;  
 }
 
-#project .p1 .txt{
-    width: 600px;
-    height: 400px;
-    background-color: cornflowerblue
+
+
+.controller{
+  position: absolute;
+  top: 40%;
+  left: 300px;
 }
 
+.controller li{
+  margin-top: 25px;
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: rgb(46, 46, 46);
+}
+
+.controller li a{
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;  
+  text-indent: -9999px;
+}
+
+.controller li a:hover{
+  background-color: rgb(179, 178, 178);  
+  width: 100%;
+  height: 30px;
+  transition: all 0.3s ease-in-out;
+  text-indent: -9999px;
+  border-radius: 20px;
+}
+
+.controller li.on{
+  background-color: rgb(179, 178, 178);
+  border-radius: 20px;
+  height: 30px; 
+}
+
+.controller li:first-child {
+  margin-top: 0;
+}
         
 /*  */
 #contact{
-    width: 100%; height: 100vh;    
-    position: relative;    
+  width: 100%; height: 100vh;    
+  position: relative;    
 }
 #contact::before{
     content:"";
