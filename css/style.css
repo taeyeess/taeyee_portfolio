@@ -374,7 +374,7 @@
 #project .p1{
   width: 1200px;
   height: 800px;
-  background-color: #D6CBC2;  
+  background-color: #000;  
   margin: 0 auto;  
   margin-top: 70px;
   box-sizing: border-box;
@@ -384,57 +384,81 @@
 
 #project .p1 .txt{
   width: 600px;
-  height: 800px;  
-  background-color: cornflowerblue;
-  padding-left: 20px;
+  height: 600px;  
+  /* background-color: cornflowerblue; */
+  padding-left: 30px;
 }
 
 #project .p1 .txt h3{
-  font-size: 22px;
-  padding-top: 320px;
-  
+  font-size: 30px;
+  padding-top: 200px;  
 }
 
 #project .p1 .txt p{
   padding-top: 15px;
+  font-size: 13px;
 }
 
 #project .p1 .txt ul{
   width: 300px;
-  padding-top: 20px;
+  padding: 20px 0 80px 0;
   display: flex;
   justify-content: space-between;
 }
 
-#project .p1 .photo{
+#project .p1 .txt .view{
+  color:rgb(0, 0, 0);
+  font-weight: 900;
+  display: inline-block;
+  padding: 6px 10px;
+  background-color: #fff;
+  margin-right: 15px;
+  border-radius: 3px; 
+  /* border: 1px solid #fff; */
+}
+
+#project .p1 .txt .github{
+  color:rgb(0, 0, 0);
+  font-weight: 900;
+  display: inline-block;
+  padding: 6px 10px;
+  background-color: #fff;
+  border-radius: 3px; 
+}
+
+#project .p1 .txt a:hover{
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+  transition: all 0.2s ease-in;
+}
+#project .p1 .page{
   width: 600px;
-  height: 800px;  
-  background-color: crimson; 
+  height: 600px;  
+  /* background-color: crimson;  */
   overflow-y: scroll;
 }
 
 /* 스크롤바 너비설정 */
-#project .p1 .photo::-webkit-scrollbar{
+#project .p1 .page::-webkit-scrollbar{
   width: 10px;
   height: 15px;
 }
 
 /* 스크롤바 막대 높이 설정 */
-#project .p1 .photo::-webkit-scrollbar-thumb{
+#project .p1 .page::-webkit-scrollbar-thumb{
   height: 17px;
   background-color: #7b7b7b;
   border-radius: 10px;
 }
 
 /* 스크롤바 배경 설정 */
-#project .p1 .photo::-webkit-scrollbar-track{
+#project .p1 .page::-webkit-scrollbar-track{
   background-color: #fff;
 }
 
-#project .p1 .photo > img{
+#project .p1 .page > img{
   width: 100%;  
 }
-
 
 
 .controller{
@@ -485,46 +509,36 @@
   position: relative;    
 }
 #contact::before{
-    content:"";
-    background:url(../images/hubble_friday_05162016.jpg) no-repeat center;
-    background-size: cover;               
-    position:absolute;
-    opacity: 0.5;
-    top:0px;
-    left:0px;
-    right:0px;
-    bottom:0px;
+  content:"";
+  background:url(../images/hubble_friday_05162016.jpg) no-repeat center;
+  background-size: cover;               
+  position:absolute;
+  opacity: 0.5;
+  top:0px;
+  left:0px;
+  right:0px;
+  bottom:0px;
 }
 #contact .tlt{
-    position: relative;
-    color: rgb(207, 207, 207);
-    font-size: 50px;
-    letter-spacing: 10px;
-    text-align: center;
-    padding-top:300px;
+  position: relative;
+  color: rgb(207, 207, 207);
+  font-size: 50px;
+  letter-spacing: 10px;
+  text-align: center;
+  padding-top:300px;
 }
 #contact > p{
-    position: relative;
-    color: #fff;
-    font-size: 20px;
-    padding-top:20px;
-    text-align: center;
-
+  position: relative;
+  color: #fff;
+  font-size: 20px;
+  padding-top:20px;
+  text-align: center;
 }
 
-#contact .box{
-    position: relative;
-    width: 300px;        
-    margin: 0 auto;
-    padding-top:100px;
-    font-size: 15px;
-}
-
-#contact .box .input_txt{
-    width: 100%;
-    margin:10px 0 20px 0;    
-}
-
-#contact .box .button{
-    padding:5px;
+#contact ul{
+  padding-top: 50px;
+  margin: 0 auto;
+  display: flex;
+  width: 600px;
+  justify-content: space-around;
 }

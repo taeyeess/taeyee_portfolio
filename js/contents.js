@@ -59,12 +59,13 @@
       
       for(let j = 0; j < pageList.length; j++){ // 0 1 2 3 4 5
         if(j <= n){ // n = 2 => pageList[2]
-          pageList[j].style.top = 0 + 'px'; // sub 움직임은 스타일을 이용한 움직임
+          pageList[j].style.top = 0 + 'px'; // sub 움직임은 스타일을 이용한 움직임  
+                  
           if(j == n){
             setTimeout(layoutInit, 400); // 메뉴의 스타일 적용
           }
         }else{
-          pageList[j].style.top = h + 'px';
+          pageList[j].style.top = h + 'px';          
         }
       }
     })
