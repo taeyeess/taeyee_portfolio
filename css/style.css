@@ -20,6 +20,7 @@
     width: 100%;
     /* height: 100vh; */
     animation: rotate 600s infinite linear;
+    
   }
   
   .estrela {
@@ -29,6 +30,7 @@
     animation-name: estrela;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
+    overflow: hidden;
   }
   
   .estrela.style1 { animation-duration: 0.5s; animation-name: estrela; }
@@ -305,15 +307,22 @@
   padding-top: 200px;    
 } 
 
-#profile .IDphoto{
+#profile .IDphoto.sa{
   width: 300px;
   height: 300px;
   background: url(../images/KakaoTalk_20220623_155747766.jpg) no-repeat center;
   background-size: cover;
   border-radius: 50%;
   border:solid 10px #fff;
-  margin: 0 auto;    
+  margin: 0 auto; 
+  opacity: 0;
+  transition: all .9s ease-in;   
 }
+
+#profile .IDphoto.sa.show{
+  opacity: 1;
+  transform: none;
+} 
 
 #profile .txt{
   padding-top: 40px;
@@ -328,17 +337,29 @@
     align-items: center;
     justify-content: space-between;
     margin: 0 auto;
-    
 }
 
-#profile .skills li{
+#profile .skills li.sa{
     width: 64px;
     text-align: center;
+    /* Scroll Animation (sa, 스크롤 애니메이션) */
+    opacity: 0;
+    transition: all .8s ease-in-out;
 }
-#profile .skills li > img{
+
+#profile .skills li.sa > img{
     display: block;
-    margin-bottom: 15px;
-    
+    margin-bottom: 15px;    
+}
+
+#profile .skills li.sa-up {
+  /* 아래에서 위로 페이드 인 */
+  transform: translate(0, 50px);
+}
+
+#profile .skills li.sa.show {
+  opacity: 1;
+  transform: none;
 }
 
 /* 프로젝트 */
@@ -374,16 +395,18 @@
 #project .p1{
   width: 1200px;
   height: 800px;
-  background-color: #000;  
+  background-color: rgb(36, 36, 36);
   margin: 0 auto;  
   margin-top: 70px;
   box-sizing: border-box;
+  border-radius: 20px;
   display: flex;
-  align-items: center;    
+  justify-content: space-around;
+  align-items: center;      
 }
 
 #project .p1 .txt{
-  width: 600px;
+  width: 500px;
   height: 600px;  
   /* background-color: cornflowerblue; */
   padding-left: 30px;
@@ -432,7 +455,7 @@
   transition: all 0.2s ease-in;
 }
 #project .p1 .page{
-  width: 600px;
+  width: 500px;
   height: 600px;  
   /* background-color: crimson;  */
   overflow-y: scroll;
@@ -441,25 +464,24 @@
 /* 스크롤바 너비설정 */
 #project .p1 .page::-webkit-scrollbar{
   width: 10px;
-  height: 15px;
+  /* height: 15px; */
 }
 
 /* 스크롤바 막대 높이 설정 */
 #project .p1 .page::-webkit-scrollbar-thumb{
-  height: 17px;
-  background-color: #7b7b7b;
+  /* height: 5%; */
+  background-color: #000000;
   border-radius: 10px;
 }
 
 /* 스크롤바 배경 설정 */
 #project .p1 .page::-webkit-scrollbar-track{
-  background-color: #fff;
+  background-color: rgb(36, 36, 36);
 }
 
 #project .p1 .page > img{
   width: 100%;  
 }
-
 
 .controller{
   position: absolute;
