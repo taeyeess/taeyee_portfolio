@@ -1,7 +1,7 @@
 # 프로젝트 이름
 
 
-  ![screencapture-127-0-0-1-5500-index-html-2022-08-18-12_21_03](https://user-images.githubusercontent.com/106040138/185286092-5bd3110c-e29a-4b6a-b37b-   bfb0ef1a897d.png)
+  ![mainPage](https://user-images.githubusercontent.com/106040138/185286092-5bd3110c-e29a-4b6a-b37b-bfb0ef1a897d.png)
 
 
 
