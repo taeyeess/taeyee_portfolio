@@ -1,4 +1,4 @@
-# 프로젝트 이름
+# TAEYEE_PORTFOLIO
 
 
   ![mainPage](https://user-images.githubusercontent.com/106040138/185286092-5bd3110c-e29a-4b6a-b37b-bfb0ef1a897d.png)
